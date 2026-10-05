@@ -48,3 +48,7 @@ npm run build    # release bundle in src-tauri/target/release/bundle/
 ## Platform
 
 macOS on Apple Silicon only (M-series). No cross-platform ambitions.
+
+## License
+
+MiniMon is licensed under the [MIT License](LICENSE).
