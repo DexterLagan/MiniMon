@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiniMon</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="live"><span class="dot"></span>live</div>
+  </header>
+
+  <main>
+    <section class="metric" id="cpu">
+      <div class="row">
+        <span class="label">CPU</span>
+        <span class="value" id="cpu-value">--</span>
+      </div>
+      <div class="track"><div class="fill cpu"></div></div>
+      <div class="sub" id="cpu-sub">&nbsp;</div>
+    </section>
+
+    <section class="metric" id="gpu">
+      <div class="row">
+        <span class="label">GPU</span>
+        <span class="value" id="gpu-value">--</span>
+      </div>
+      <div class="track"><div class="fill gpu"></div></div>
+      <div class="sub" id="gpu-sub">&nbsp;</div>
+    </section>
+
+    <section class="metric" id="mem">
+      <div class="row">
+        <span class="label">RAM</span>
+        <span class="value" id="mem-value">--</span>
+      </div>
+      <div class="track"><div class="fill mem"></div></div>
+      <div class="sub" id="mem-sub">&nbsp;</div>
+    </section>
+
+    <section class="metric" id="disk">
+      <div class="row">
+        <span class="label">DISK</span>
+        <span class="value" id="disk-value">--</span>
+      </div>
+      <div class="track"><div class="fill disk"></div></div>
+      <div class="sub" id="disk-sub">&nbsp;</div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
